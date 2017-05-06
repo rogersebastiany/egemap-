@@ -1,0 +1,40 @@
+quando abrir o sistema, pedir usuario e senha
+dai no menu da direita vai ter o logo conforme o pdf de exemplo e um botao + em baixo para adicionar um produto etc e quando clicar surge as opções de produto e aparece outro + em baixo
+no final ter um campo pra assinar o cliente e o vendedor
+
+
+coisas do banco de dados:
+	usuarios do sistema
+		id(auto)
+		login	
+		senha
+		nome
+	
+	Clientes:
+		cod (auto)
+		nome (fisico ou  juridico)
+		endereço 
+		telefone (marcar se é celular, fixo, whats)
+		email
+		cpf/cnpj
+
+	Produtos madeira:
+		cod (auto)
+		tipo de madeira
+		descrição
+		medidas largura x altura
+		imagem
+	
+	Produtos aluminio:
+		cod (auto)
+		linha
+		descrição
+		medidas
+		imagem
+
+	observações
+		cod (auto)
+		campo de texto
+	
+
+
